@@ -11,7 +11,7 @@
     <header>
         <h1>Rodrigo Molero</h1>
         <p>Computer Engineer Student at the University of South Florida</p>
-        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <button type="button" id="darkModeToggle">Toggle Dark Mode</button>
     </header>
 
     <nav>
@@ -19,6 +19,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -75,24 +76,47 @@
         </ul>
     </section>
 
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Undergraduate Research Assistant - ERA Lab</h3>
+            <p>Designed and tested simulation environments in NVIDIA Isaac Sim to train reinforcement learning algorithms for underwater robot navigation.</p>
+        </div>
+        <video width="25%" controls poster="./resources/preview_ERA_Lab.jpg">
+            <source src="./resources/ERA-Lab.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="experience-item">
+            <h3>Peer Mentor - University of South Florida</h3>
+            <p>Serving as a Peer Mentor for Calculus 1, guiding and supporting fellow students to foster academic growth and student success.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Marketing Lead - IEEE Computer Society</h3>
+            <p>Leading marketing strategy and promotional campaigns for IEEE events, contributing to 1,500+ total event attendees since September 2025.</p>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <form>
+        <form id="contactForm">
             <label>Name:</label>
-            <input type="text" required>
+            <input type="text" id="name">
             <label>Email:</label>
-            <input type="email" required>
-            <label>Message:</label>
-            <textarea required></textarea>
-            <button type="submit">Send</button>
+            <input type="email" id="email">
+            <label >Message:</label>
+            <textarea id="message"></textarea>
+            <button type="submit" id="submit">Send</button>
+            <div id="formMessage"></div>
         </form>
     </section>
 
     <div class="resume_container">
-        <iframe src="Rodrigo_Molero_resume.pdf" style="border: none;">
+        <iframe src="./resources/Rodrigo_Molero_resume.pdf" style="border: none;">
         Your browser does not support iframes. 
         </iframe>
     </div>
+
+    <button id="backToTop" title="Go to top">↑</button>
 
     <footer>
         <p>&copy; 2026 Rodrigo Molero. All rights reserved.</p>
