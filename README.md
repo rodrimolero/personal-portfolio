@@ -1,5 +1,5 @@
 # Personal Portfolio: Rodrigo Molero
-Link to the website: https://rodrimolero.github.io/personal-portfolio/
+# Link to the website: https://rodrimolero.github.io/personal-portfolio/
 
 ## Project Overview
 This repository contains the source code for the personal portfolio of Rodrigo Molero, a Computer Engineering student at the University of South Florida. The platform serves as a professional hub to showcase academic research in robotics, technical engineering projects, and leadership experience within the technology community.
