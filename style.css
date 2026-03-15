@@ -17,6 +17,15 @@ header {
     padding: 10px;
     text-align: center;
 }
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #5b7887;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 nav ul {
     list-style-type: none;
     border-radius: 10px;
@@ -40,6 +49,18 @@ section {
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 .resume_container {
     display: flex;
@@ -66,4 +87,25 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+.dark-mode {
+    background-color: #000000;
+}
+.dark-mode header {
+    background-color: #232323;
+    color: white;
+}
+.dark-mode nav ul {
+    background-color: #4c4c4c;
+}
+.dark-mode section {
+    background-color: #919191;
+    color: white;
+}
+.dark-mode footer {
+    background-color: #919191;
+}
+/* links */
+.dark-mode a {
+    color: #cce2fc;
 }
